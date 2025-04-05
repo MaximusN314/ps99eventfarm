@@ -1,20 +1,2 @@
---Pet Simulator 99!
-_G.ZapSettings = {
-	["PetSimulator99 - AutoTeleportToBestEventEggAreaToggle"] = true, 
-	["PetSimulator99 - AutoBuyNextEventAreaToggle"] = true, 
-	["PetSimulator99 - AutoBuyNearestEventEggToggle"] = true, 
-	["PetSimulator99 - AutoCompleteEventGateQuestToggle"] = true, 
-	["PetSimulator99 - AutoTeleportToEventEggAreaToggle"] = true, 
-	["PetSimulator99 - AutoBuySlimeFactoryEggUpgradeToggle"] = true, 
-	["PetSimulator99 - AutoBuySlimeFactorySlotsToggle"] = true, 
-	["PetSimulator99 - AutoUpgradeSlimeFactorySlotsToggle"] = true, 
-	["PetSimulator99 - AutoOpenConveyorChestToggle"] = true, 
-	["PetSimulator99 - AutoBuySlimeFactoryUpgradesTableMultiDropdown"] = {}, -- Options = {"Conveyor Better Chest Loot", "Conveyor Huge Chest", "Conveyor Titanic Chest", "Conveyor Better Drops", "Conveyor More Damage", "Conveyor More Coins", "Conveyor Better Egg Chance", "Conveyor Faster Conveyor", "Conveyor More Breakables", "Conveyor Breakable Huge Chance", "Conveyor Faster Breakable Spawning"}
-	["PetSimulator99 - AutoBuySlimeFactoryUpgradesToggle"] = false, 
-	["PetSimulator99 - AutoUseFactoryCoinsBoosterTypeDropdown"] = "Factory Coins Booster 1", -- Options = {"Factory Coins Booster (1)", "Factory Coins Booster (2)", "Factory Coins Booster (3)"}
-	["PetSimulator99 - AutoUseFactoryCoinsBoosterToggle"] = false, 
-	["PetSimulator99 - AutoUseFactoryDamageBoosterTypeDropdown"] = "Factory Damage Booster 1", -- Options = {"Factory Damage Booster (1)", "Factory Damage Booster (2)", "Factory Damage Booster (3)"}
-	["PetSimulator99 - AutoUseFactoryDamageBoosterToggle"] = false, 
-	["PetSimulator99 - AutoUseFactorySpeedBoosterTypeDropdown"] = "Factory Speed Booster 1", -- Options = {"Factory Speed Booster (1)", "Factory Speed Booster (2)", "Factory Speed Booster (3)"}
-	["PetSimulator99 - AutoUseFactorySpeedBoosterToggle"] = false, 
-	
+script_key="JbEARDwpdNHDSJkreJvgCqeAQkWegZHN";
+loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
