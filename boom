@@ -9,7 +9,7 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoBuySlimeFactorySlotsToggle"] = false, 
 	["PetSimulator99 - AutoUpgradeSlimeFactorySlotsToggle"] = true, 
 	["PetSimulator99 - AutoOpenConveyorChestToggle"] = true, 
-	["PetSimulator99 - AutoBuySlimeFactoryUpgradesTableMultiDropdown"] = {Conveyor Better Chest Loot", "Conveyor Huge Chest", "Conveyor Titanic Chest", "Conveyor Better Drops", "Conveyor More Damage", "Conveyor More Coins", "Conveyor Better Egg Chance", "Conveyor Faster Conveyor", "Conveyor More Breakables", "Conveyor Breakable Huge Chance", "Conveyor Faster Breakable Spawning"}, -- Options = {"Conveyor Better Chest Loot", "Conveyor Huge Chest", "Conveyor Titanic Chest", "Conveyor Better Drops", "Conveyor More Damage", "Conveyor More Coins", "Conveyor Better Egg Chance", "Conveyor Faster Conveyor", "Conveyor More Breakables", "Conveyor Breakable Huge Chance", "Conveyor Faster Breakable Spawning"}
+	["PetSimulator99 - AutoBuySlimeFactoryUpgradesTableMultiDropdown"] = {}, -- Options = {"Conveyor Better Chest Loot", "Conveyor Huge Chest", "Conveyor Titanic Chest", "Conveyor Better Drops", "Conveyor More Damage", "Conveyor More Coins", "Conveyor Better Egg Chance", "Conveyor Faster Conveyor", "Conveyor More Breakables", "Conveyor Breakable Huge Chance", "Conveyor Faster Breakable Spawning"}
 	["PetSimulator99 - AutoBuySlimeFactoryUpgradesToggle"] = true, 
 	["PetSimulator99 - AutoUseFactoryCoinsBoosterTypeDropdown"] = "Factory Coins Booster 1", -- Options = {"Factory Coins Booster (1)", "Factory Coins Booster (2)", "Factory Coins Booster (3)"}
 	["PetSimulator99 - AutoUseFactoryCoinsBoosterToggle"] = true, 
