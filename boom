@@ -6,7 +6,7 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoCompleteEventGateQuestToggle"] = true, 
 	["PetSimulator99 - AutoTeleportToEventEggAreaToggle"] = true, 
 	["PetSimulator99 - AutoBuySlimeFactoryEggUpgradeToggle"] = true, 
-	["PetSimulator99 - AutoBuySlimeFactorySlotsToggle"] = true, 
+	["PetSimulator99 - AutoBuySlimeFactorySlotsToggle"] = false, 
 	["PetSimulator99 - AutoUpgradeSlimeFactorySlotsToggle"] = true, 
 	["PetSimulator99 - AutoOpenConveyorChestToggle"] = true, 
 	["PetSimulator99 - AutoBuySlimeFactoryUpgradesTableMultiDropdown"] = {}, -- Options = {"Conveyor Better Chest Loot", "Conveyor Huge Chest", "Conveyor Titanic Chest", "Conveyor Better Drops", "Conveyor More Damage", "Conveyor More Coins", "Conveyor Better Egg Chance", "Conveyor Faster Conveyor", "Conveyor More Breakables", "Conveyor Breakable Huge Chance", "Conveyor Faster Breakable Spawning"}
