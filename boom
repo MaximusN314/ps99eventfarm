@@ -27,15 +27,15 @@ _G.ZapSettings = {
 	["PetSimulator99 - NewExclusivePetsToggle"] = false, 
 	["PetSimulator99 - DisableBreakablesModelsToggle"] = false, 
 	["PetSimulator99 - DisablePetsRenderingToggle"] = false, 
-	["PetSimulator99 - DisableEffectsRenderingToggle"] = false, 
-	["PetSimulator99 - DisableConfettiRenderingToggle"] = false, 
+	["PetSimulator99 - DisableEffectsRenderingToggle"] = true, 
+	["PetSimulator99 - DisableConfettiRenderingToggle"] = true, 
 	["PetSimulator99 - DeleteUnnecessaryPartsToggle"] = true, 
 	["PetSimulator99 - InfinitePetSpeedToggle"] = true, 
 	["PetSimulator99 - AutoTapToggle"] = true, 
 	["PetSimulator99 - AutoEfficientFarmToggle"] = true, 
 	["PetSimulator99 - AutoTapModeDropdown"] = "Random", -- Options = {"Random", "Nearest"}
 	["PetSimulator99 - AutoCollectToggle"] = true, 
-	["PetSimulator99 - AutoUseUltimateToggle"] = false, 
+	["PetSimulator99 - AutoUseUltimateToggle"] = true, 
 	["PetSimulator99 - AutoTeleportToBestAreaToggle"] = false, 
 	["PetSimulator99 - AutoBuyNextAreaToggle"] = false, 
 	["PetSimulator99 - AutoCompleteGateQuestToggle"] = false, 
@@ -52,8 +52,8 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoUseTNTCreateToggle"] = false, 
 	["PetSimulator99 - AutoUseTNTCrateDelatSlider"] = 15, -- Range = {0.1, 60}
 	["PetSimulator99 - AutoBuyUpgradesToggle"] = false, 
-	["PetSimulator99 - AutoBuyPetEquipSlotsToggle"] = false, 
-	["PetSimulator99 - AutoBuyEggBundleSlotsToggle"] = false, 
+	["PetSimulator99 - AutoBuyPetEquipSlotsToggle"] = true, 
+	["PetSimulator99 - AutoBuyEggBundleSlotsToggle"] = true, 
 	["PetSimulator99 - AutoBuyEggNameDropdown"] = "EggsTable1", -- Options not properly defined
 	["PetSimulator99 - AutoBuyEggTeleportToggle"] = false, 
 	["PetSimulator99 - AutoBuyEggToggle"] = false, 
@@ -89,11 +89,11 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoMailStatPetNameInput"] = false, 
 	["PetSimulator99 - AutoMailStatPetAmountSlider"] = 500000, -- Range = {1000, 1000000}
 	["PetSimulator99 - AutoMailStatPetToggle"] = false, 
-	["PetSimulator99 - AutoClaimFreeGiftsToggle"] = false, 
-	["PetSimulator99 - AutoClaimRankRewardsToggle"] = false, 
-	["PetSimulator99 - AutoCalimHiddenPresentsToggle"] = false, 
-	["PetSimulator99 - AutoClaimDefaultForeverPackFreeGiftToggle"] = false, 
-	["PetSimulator99 - AutoFindShinyRelicsToggle"] = false, 
+	["PetSimulator99 - AutoClaimFreeGiftsToggle"] = true, 
+	["PetSimulator99 - AutoClaimRankRewardsToggle"] = true, 
+	["PetSimulator99 - AutoCalimHiddenPresentsToggle"] = true, 
+	["PetSimulator99 - AutoClaimDefaultForeverPackFreeGiftToggle"] = true, 
+	["PetSimulator99 - AutoFindShinyRelicsToggle"] = true, 
 	["PetSimulator99 - AutoPopBalloonsToggle"] = false, 
 	["PetSimulator99 - AutoLeaveStairwayToHeavenToggle"] = false, 
 	["PetSimulator99 - AutoTreehouseMerchantToggle"] = false, 
@@ -107,14 +107,14 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoBuyWingsUpgradesToggle"] = false, 
 	["PetSimulator99 - DoodleUpgradesTableMultiDropdown"] = {}, -- Options = {"Drain Jar Slower", "FIll Jar Faster", "Rarer Color Drops"}
 	["PetSimulator99 - AutoBuyDoodleUpgradesToggle"] = false, 
-	["PetSimulator99 - FruitTableMultiDropdown"] = {}, -- Options = {"Apple", "Orange", "Banana", "Pineapple", "Watermelon", "Candycane", "Rainbow"}
+	["PetSimulator99 - FruitTableMultiDropdown"] = {"Apple", "Orange", "Banana", "Pineapple", "Watermelon", "Candycane", "Rainbow"}, -- Options = {"Apple", "Orange", "Banana", "Pineapple", "Watermelon", "Candycane", "Rainbow"}
 	["PetSimulator99 - AutoEatFruitAmountSlider"] = 1, -- Range = {1, 100}
 	["PetSimulator99 - AutoEatFruitTypeDropdown"] = "Normal", -- Options = {"Normal", "Shiny"}
-	["PetSimulator99 - AutoEatFruitToggle"] = false, 
-	["PetSimulator99 - ToyTableMultiDropdown"] = {}, -- Options = {"Toy Bone", "Toy Ball", "Squeaky Toy"}
-	["PetSimulator99 - AutoUseToyToggle"] = false, 
-	["PetSimulator99 - PotionTableMultiDropdown"] = {}, -- Options = {"Coins", "Damage", "Diamonds", "Treasure Hunter", "Walkspeed", "Lucky", "Huge"}
-	["PetSimulator99 - AutoUsePotionToggle"] = false, 
+	["PetSimulator99 - AutoEatFruitToggle"] = true, 
+	["PetSimulator99 - ToyTableMultiDropdown"] = {"Toy Bone", "Toy Ball", "Squeaky Toy"}, -- Options = {"Toy Bone", "Toy Ball", "Squeaky Toy"}
+	["PetSimulator99 - AutoUseToyToggle"] = true, 
+	["PetSimulator99 - PotionTableMultiDropdown"] = {"Coins", "Damage", "Diamonds", "Treasure Hunter", "Walkspeed", "Lucky", "Huge"}, -- Options = {"Coins", "Damage", "Diamonds", "Treasure Hunter", "Walkspeed", "Lucky", "Huge"}
+	["PetSimulator99 - AutoUsePotionToggle"] = true, 
 	["PetSimulator99 - GiftTableMultiDropdown"] = {}, -- Options = {"Gift Bag", "Large Gift Bag", "Charm Stone", "Seed Bag", "Flag Bundle", "Toy Bundle", "Potion Bundle", "Enchant Bundle", "Mini Chest", "Large Enchant Bundle", "Large Potion Bundle", "Fruit Bundle", "Rainbow Mini Chest", "Diamond Gift Bag"}
 	["PetSimulator99 - AutoOpenGiftToggle"] = false, 
 	["PetSimulator99 - SelectGiftsMultiDropdownn"] = {}, -- Options not properly defined
@@ -130,73 +130,7 @@ _G.ZapSettings = {
 	["PetSimulator99 - AutoSpinTechSpinnyWheelToggle"] = false, 
 	["PetSimulator99 - AutoSpinDiamondWheelToggle"] = false, 
 	["PetSimulator99 - AutoSpinVoidSpinnyWheelToggle"] = false, 
-	["PetSimulator99 - UpgradeFruitTableMultiDropdown"] = {}, -- Options = {"Apple", "Orange", "Banana", "Pineapple", "Watermelon"}
-	["PetSimulator99 - AutoUpgradeFruitToRainbowToggle"] = false, 
-	["PetSimulator99 - UpgradeFruitShinyTableMultiDropdown"] = {}, -- Options = {"Apple", "Orange", "Banana", "Pineapple", "Watermelon", "Rainbow"}
-	["PetSimulator99 - AutoUpgradeFruitToShinyToggle"] = false, 
-	["PetSimulator99 - AutoUpgradePotionsToggle"] = false, 
-	["PetSimulator99 - AutoUpgradeEnchantsToggle"] = false, 
-	["PetSimulator99 - ObbyMethodDropdown"] = "Bypass", -- Options = {"Bypass", "Legit"}
-	["PetSimulator99 - ObbyDropdown"] = "ObbyList1", -- Options not properly defined
-	["PetSimulator99 - AutoMinifieldToggle"] = false, 
-	["PetSimulator99 - AutoAtlantiSpeedDropdown"] = "Normal", -- Options = {"Normal", "Fast", "Extreme"}
-	["PetSimulator99 - AutoAtlantisToggle"] = false, 
-	["PetSimulator99 - FishingTypeDropdown"] = "Normal Fishing", -- Options = {"Normal Fishing", "Advanced Fishing"}
-	["PetSimulator99 - AutoFishingToggle"] = false, 
-	["PetSimulator99 - AutoFishingDeepPoolsToggle"] = false, 
-	["PetSimulator99 - AutoBuyNextRodMerchantToggle"] = false, 
-	["PetSimulator99 - DigsiteTypeDropdown"] = "Normal Digsite", -- Options = {"Normal Digsite", "Advanced Digsite"}
-	["PetSimulator99 - AutoDigsiteToggle"] = false, 
-	["PetSimulator99 - AutoDigsiteRowBelowToggle"] = false, 
-	["PetSimulator99 - AutoFarmDigsiteChestToggle"] = false, 
-	["PetSimulator99 - DigsiteChestEspToggle"] = false, 
-	["PetSimulator99 - AutoOpenPrisonChestToggle"] = false, 
-	["PetSimulator99 - UseGoldenPrisonKeyToggle"] = false, 
-	["PetSimulator99 - AutoBreakPoliceStationChestToggle"] = false, 
-	["PetSimulator99 - AutoBuyPoliceStationEggToggle"] = false, 
-	["PetSimulator99 - AutoTeleportToBestSummerEggToggle"] = false, 
-	["PetSimulator99 - AutoBuyNearestSummerEggToggle"] = false, 
-	["PetSimulator99 - AutoTeleportToVirusBossChestToggle"] = false, 
-	["PetSimulator99 - ServerHopWhenNoVirusBossChestModeDropdown"] = "Mode 1", -- Options = {"Mode 1", "Mode 2"}
-	["PetSimulator99 - AutoServerHopWhenNoVirusBossChestToggle"] = false, 
-	["PetSimulator99 - AutoBreakVirusBossChestToggle"] = false, 
-	["PetSimulator99 - AutoBreakVirusGuardsBossChestToggle"] = false, 
-	["PetSimulator99 - AutoTeleportToBestVirusEggToggle"] = false, 
-	["PetSimulator99 - AutoBuyNearestVirusEggToggle"] = false, 
-	["PetSimulator99 - AutoFindTokyoAlleyEggToggle"] = false, 
-	["PetSimulator99 - AutoBuyNearestTokioAlleyEggToggle"] = false, 
-	["PetSimulator99 - AutoCatchPetsModeDropdown"] = "Bigger Chance First", -- Options = {"Bigger Chance First", "Lower Chance First"}
-	["PetSimulator99 - AutoCatchPetsChanceForUltraCubeSlider"] = 10, -- Range = {0, 100}
-	["PetSimulator99 - AutoCatchPetsToggle"] = false, 
-	["PetSimulator99 - AutoClaimTrainerQuestsRewardToggle"] = false, 
-	["PetSimulator99 - AutoBuyPetCubeMerchantToggle"] = false, 
-	["PetSimulator99 - AutoServerHopIfNotWoodcuttingTreeModeDropdown"] = "Mode 1", -- Options = {"Mode 1", "Mode 2"}
-	["PetSimulator99 - AutoServerHopIfNotWoodcuttingTreeTypeDropdown"] = "Elm", -- Options = {"Golden Willow", "Fantasy", "Elm", "Evergreen", "Birch", "Oak"}
-	["PetSimulator99 - AutoServerHopIfNotWoodcuttingTreeToggle"] = false, 
-	["PetSimulator99 - AutoWoodcuttingToggle"] = false, 
-	["PetSimulator99 - AutoBuyNextAxeMerchantToggle"] = false, 
-	["PetSimulator99 - AutoClaimWoodcuttingQuestGiftToggle"] = false, 
-	["PetSimulator99 - AutoDoodleBattleTableMultiDropdown"] = {"Cat", "Ducky", "Monkey", "Tiger", "Dragon"}, -- Options = {"Cat", "Ducky", "Monkey", "Tiger", "Dragon"}
-	["PetSimulator99 - AutoDoodleBattleModeDropdown"] = "Recommended Skill", -- Options = {"Recommended Skill", "Minimum Skill"}
-	["PetSimulator99 - AutoDoodleBattleDragonSkillSlider"] = 25000, -- Range = {17500, 30000}
-	["PetSimulator99 - AutoDoodleBattleToggle"] = false, 
-	["PetSimulator99 - AutoUsePencilsTableMultiDropdown"] = {}, -- Options = {"Golden Pencil", "Diamond Pencil", "Rainbow Pencil"}
-	["PetSimulator99 - AutoUsePencilsToggle"] = false, 
-	["PetSimulator99 - AutoClaimPaintSplotchesTableMultiDropdown"] = {}, -- Options = {"Red Paint Splotche", "Green Paint Splotche", "Blue Paint Splotche"}
-	["PetSimulator99 - AutoClaimPaintSplotchesToggle"] = false, 
-	["PetSimulator99 - AutoMailPencilsAccountUsernameInput"] = false, 
-	["PetSimulator99 - AutoMailPencilsTableMultiDropdown"] = {}, -- Options = {"Golden Pencil", "Diamond Pencil", "Rainbow Pencil"}
-	["PetSimulator99 - AutoMailGoldenPencilsAmountSlider"] = 25, -- Range = {1, 100}
-	["PetSimulator99 - AutoMailDiamondPencilsAmountSlider"] = 10, -- Range = {1, 50}
-	["PetSimulator99 - AutoMailRainbowPencilsAmountSlider"] = 5, -- Range = {1, 25}
-	["PetSimulator99 - AutoMailPencilsToggle"] = false, 
-	["PetSimulator99 - AutoMailDoodleGiftsAccountUsernameInput"] = false, 
-	["PetSimulator99 - AutoMailDoodleGiftsAmountSlider"] = 5, -- Range = {1, 25}
-	["PetSimulator99 - AutoMailDoodleGiftsToggle"] = false, 
-	["PetSimulator99 - AreaDropdown"] = "AreaList1", -- Options not properly defined
-	["PetSimulator99 - MachineDropdown"] = "FakeMachineList1", -- Options not properly defined
-	["PetSimulator99 - MerchantsDropdown"] = "FakeMerchantList1", -- Options not properly defined
-	["PetSimulator99 - VendingMachineDropdown"] = "FakeVendingMachineList1", -- Options not properly defined
+
 	["PetSimulator99 - WalkSpeedEnablerToggle"] = false, 
 	["PetSimulator99 - WalkSpeedSlider"] = 16, -- Range = {0, 500}
 	["PetSimulator99 - NoClipToggle"] = false, 
